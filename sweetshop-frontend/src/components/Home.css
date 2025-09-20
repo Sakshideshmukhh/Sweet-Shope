@@ -1,0 +1,31 @@
+.home-container {
+  text-align: center;
+  padding: 50px;
+  background-image: url('../assets/images/image.jpeg'); /* relative path from CSS file */
+  background-size: cover;       /* make it cover the entire page */
+  background-position: center;  /* center the image */
+  background-repeat: no-repeat; /* no repeating */
+  height: 100vh;                /* full viewport height */
+  color: #fff;                  /* optional text color */
+  margin: 0;                    /* remove default margin */
+}
+
+
+.home-buttons {
+  margin-top: 30px;
+}
+
+.btn {
+  margin: 10px;
+  padding: 12px 25px;
+  background-color: #ff4081;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #e91e63;
+}
